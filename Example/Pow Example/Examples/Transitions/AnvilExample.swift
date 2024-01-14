@@ -27,3 +27,8 @@ struct AnvilExample: View, Example {
         Image(systemName: "scalemass")
     }
 }
+
+
+#Preview {
+  AnvilExample()
+}

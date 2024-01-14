@@ -10,7 +10,7 @@ struct PlaceholderView: View {
     var gridLines: some View {
         ZStack {
             Circle()
-                .stroke(lineWidth: 1)
+                .stroke(lineWidth: 1) 
                 .padding()
             Circle()
                 .stroke(lineWidth: 1)

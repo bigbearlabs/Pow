@@ -79,6 +79,7 @@ struct ExampleList: View {
             Section {
                 Group {
                     AnvilExample.navigationLink
+                    AnvilDustlessExample.navigationLink
                     BlindsExample.navigationLink
                     BlurExample.navigationLink
                     BoingExample.navigationLink
