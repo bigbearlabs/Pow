@@ -218,7 +218,7 @@ struct JumpSimulation_Previews: PreviewProvider {
                         RoundedRectangle(cornerRadius: 16, style: .continuous)
                             .fill(.green.gradient)
                             .saturation(1.5)
-                            .frame(width: 60, height: 60)
+                            .containerFrame(width: 60, height: 60)
                             .overlay {
                                 Image(systemName: "phone.fill")
                                     .font(.system(size: 38))
@@ -228,7 +228,7 @@ struct JumpSimulation_Previews: PreviewProvider {
                         RoundedRectangle(cornerRadius: 16, style: .continuous)
                             .fill(LinearGradient(colors: [.blue, .cyan], startPoint: .top, endPoint: .bottom))
                             .saturation(1.5)
-                            .frame(width: 60, height: 60)
+                            .containerFrame(width: 60, height: 60)
                             .overlay {
                                 Image(systemName: "envelope.fill")
                                     .font(.system(size: 36))
@@ -257,13 +257,13 @@ struct JumpSimulation_Previews: PreviewProvider {
                             }
                             .changeEffect(.jump(height: height), value: emailCount)
                             .overlay(alignment: .top) {
-                                Color.red.frame(height: 3).offset(y: -height)
+                                Color.red.containerFrame(height: 3).offset(y: -height)
                             }
 
                         RoundedRectangle(cornerRadius: 16, style: .continuous)
                             .fill(.orange.gradient)
                             .saturation(1.5)
-                            .frame(width: 60, height: 60)
+                            .containerFrame(width: 60, height: 60)
                             .overlay {
                                 Image(systemName: "book.fill")
                                     .font(.system(size: 34))
@@ -273,7 +273,7 @@ struct JumpSimulation_Previews: PreviewProvider {
                         RoundedRectangle(cornerRadius: 16, style: .continuous)
                             .fill(.red.gradient)
                             .saturation(1.5)
-                            .frame(width: 60, height: 60)
+                            .containerFrame(width: 60, height: 60)
                             .overlay {
                                 Image(systemName: "music.quarternote.3")
                                     .font(.system(size: 34))
